@@ -1,0 +1,1 @@
+import{t as e}from"./request-BkzRWxQD.js";var t=({page:t,pageSize:n,keyword:r})=>e.get(`/books`,{params:{page:t,pageSize:n,keyword:r}}),n=t=>e.post(`/books`,t),r=(t,n)=>e.put(`/books/${t}`,n),i=t=>e.delete(`/books/${t}`);export{r as i,i as n,t as r,n as t};

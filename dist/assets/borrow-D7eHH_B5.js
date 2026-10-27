@@ -1,0 +1,1 @@
+import{t as e}from"./request-BkzRWxQD.js";var t=({page:t,pageSize:n,keyword:r})=>e.get(`/borrows`,{params:{page:t,pageSize:n,keyword:r}}),n=()=>e.get(`/borrows/all`);export{n,t};
